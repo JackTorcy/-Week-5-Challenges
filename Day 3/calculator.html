@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="calculator.js" defer></script>
+</head>
+
+<body>
+    <h2>Basic Calculator</h2>
+    <div class="operator">
+        <input id="addition" type="button" value="+">
+        <input id="subtraction" type="button" value="-">
+        <input id="multiply" type="button" value="X">
+        <input id="divide" type="button" value="/">
+    </div>
+
+    <form class="container calculator">
+        <input type="text" id="numberone">
+        <button id="displayOperator">+</button>
+        <input type="text" id="numbertwo" />
+        <input type="button" id="sumbtn" value="=" onclick="calculate()" />
+        <input type="text" id="result" disabled /> <!-- JS will create a value and insert the result -->
+        <input type="reset" id="reset" name="reset">
+    </form></textarea>
+</body>
+
+</html>
